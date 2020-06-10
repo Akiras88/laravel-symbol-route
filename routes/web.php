@@ -18,3 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', 'BlogController@index');
+Route::get('/about', function () {
+    return view('about');
+});

@@ -7,6 +7,10 @@ use Illuminate\Http\Request;
 class BlogController extends Controller
 {
     public function index() {
-        return view('blog.index');
+
+        $name = 'classe 12';
+        $students = 25;
+
+        return view('blog.index', compact('name', 'students'));
     }
 }

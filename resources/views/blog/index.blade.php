@@ -9,6 +9,8 @@
 <body>
     <header>
         <h1>My Blog</h1>
+        {{ $name }}
+        <p>Numero studenti: {{ $students }}</p>
     </header>
 </body>
 </html>
